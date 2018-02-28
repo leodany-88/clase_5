@@ -1,0 +1,75 @@
+body{
+    font-size: 13pt;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+}
+
+header a{
+    margin: 10px;
+    color: #555;
+}
+
+.buscador {
+    margin-top: 10%;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+}
+
+.buscador div {
+    margin: 30px auto;
+}
+
+#input-buscador {
+    height: 40px;
+    width: 60%;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    text-align: initial;
+    display: flex;
+    align-items: center;
+    color: #555;
+}
+
+#input-buscador input{
+    height: 90%;
+    width: 95%;
+    border: 0;
+    font-size: 15pt;
+}
+
+#input-buscador input:focus{
+	outline:0px;
+}
+
+#contenedor-buscador{
+    width: 100%;
+}
+
+#botones button{
+    padding: 15px 20px;
+    margin: 0 10px;
+    background-color: #eee;
+    border:0;
+    font-size: 13pt;
+}
+
+.img-goo{
+    margin: 0 !important;
+}
+.img-goo img{
+    max-height: 150px;
+}
+
+#tu-logo img{
+    max-height: 30px;
+    border-radius: 50%;
+}
